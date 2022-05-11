@@ -7,7 +7,7 @@ library(metid)
 library(xml2)
 library(stringr)
 
-hmdb <- read_xml('sweat_metabolites.xml') %>%
+hmdb <- read_xml('hmdb_metabolites.xml') %>%
   as_list()
 
 # load("hmdbAllinf.rda")
